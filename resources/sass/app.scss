@@ -1,0 +1,14 @@
+/**add overwrite bootstrap rules before include lib*/
+
+@import "bootstrap/bootstrap.scss";
+
+/** custom css */
+
+.alert {
+    display: none;
+    margin-bottom: 0;
+}
+
+.itinerary {
+    margin-top: 20px;
+}
