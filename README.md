@@ -1,10 +1,13 @@
 # Laravel project that sorts tickets
-The module is located in app/EmagTicketApi. The app also has a simple UI to display the results.
+The module is located in app/EmagTicketApi along side with the exercise pdf. The app also has a simple UI to display the results.
 
 I've also created a controller called TickedController that handles the input
 
+This project was use for eMag interview!
+
 
 ## Expected Payload: an array of objects
+```
 [
     [
         "type" => "train",
@@ -30,12 +33,13 @@ I've also created a controller called TickedController that handles the input
         "observation" => "Self-checkin luggage at counter"
     ]
 ]
-
+```
 ## Usage
 (new GenerateItinerary($arrayOfTickets))->generate()
 
 ## Will return an array of strings
+```
 [
     "Ticket String"
 ]
-
+```
